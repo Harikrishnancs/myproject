@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  myproject:
+    image: myproject
+    build: .
+    ports:
+      - 5000:5000
